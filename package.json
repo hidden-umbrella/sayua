@@ -15,6 +15,8 @@
     "doc:gen": "typedoc"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.2",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
     "@typescript-eslint/parser": "^4.28.3",
     "eslint": "^7.30.0",
@@ -23,17 +25,15 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6",
     "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.1.0",
     "typedoc": "^0.21.4",
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@aero/centra": "^1.0.6",
-    "@types/jest": "^26.0.24",
-    "@types/node": "^16.3.2",
-    "jest": "^27.0.6",
-    "ts-jest": "^27.0.3",
-    "ts-node": "^10.1.0"
+    "@aero/centra": "^1.0.6"
   },
   "repository": {
     "type": "git",
