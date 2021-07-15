@@ -1,4 +1,4 @@
-import c from '@aero/centra'
+import * as c from '@aero/centra'
 import constants from '../../../constants'
 
 /**
