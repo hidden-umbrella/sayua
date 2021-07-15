@@ -6,7 +6,7 @@
 
 ## Docs
 
-Auto-generated from TypeDoc [documentation](https://hidden-umbrella.github.io/template/)
+Auto-generated from TypeDoc [documentation](https://hidden-umbrella.github.io/sayua/)
 
 ## License
 
