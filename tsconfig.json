@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"allowJs": false,
+		"declaration": true,
+		"declarationDir": "./src",
+		"baseUrl": "./",
+		"target": "ESNext",
+		"lib": ["ESNext"],
+		"removeComments": true,
+		"alwaysStrict": true,
+		"strictNullChecks": true,
+		"composite": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["./src/*.ts"]
+}
