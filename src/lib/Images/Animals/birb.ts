@@ -1,5 +1,5 @@
 import c from '@aero/centra'
-import constants from '../../../Constants'
+import constants from '../../../constants'
 
 /**
  * @returns Image link
