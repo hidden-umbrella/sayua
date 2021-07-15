@@ -6,6 +6,7 @@
 		"baseUrl": "src",
 		"target": "ESNext",
 		"lib": ["ESNext"],
+		"module": "CommonJS",
 		"removeComments": true,
 		"alwaysStrict": true,
 		"strictNullChecks": true,
