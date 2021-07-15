@@ -1,6 +1,6 @@
 {
-  "name": "kasa",
-  "version": "0.0.0",
+  "name": "sayua",
+  "version": "1.0.2",
   "main": "dist/index",
   "author": "ArtieFuzzz#8298",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "build": "yarn clean && yarn build:ts",
     "build:ts": "tsc -p ./",
     "clean": "rimraf ./build && mkdir build",
-	"doc:gen": "typedoc"
+    "doc:gen": "typedoc"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.3",
@@ -26,5 +26,13 @@
     "rimraf": "^3.0.2",
     "typedoc": "^0.21.4",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@aero/centra": "^1.0.6",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.2",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.1.0"
   }
 }

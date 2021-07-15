@@ -1,0 +1,5 @@
+.github
+src
+tests
+jest.config.ts
+typedoc
