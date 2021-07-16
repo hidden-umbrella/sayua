@@ -4,6 +4,6 @@ let avatar = 'https://cdn.discordapp.com/avatars/389252140184633363/29dea926e406
 
 describe('Overlay - Glass', () => {
 	test('Should return a string / url', async () => {
-		expect(typeof await sayua.canvas.glass(avatar)).toBe('string')
+		expect(typeof await sayua.canvas.glass(avatar)).toBe('object')
 	})
 })
