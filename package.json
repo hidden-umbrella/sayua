@@ -14,7 +14,8 @@
     "build:ts": "tsc -p ./",
     "clean": "rimraf ./dist && mkdir dist",
     "doc:gen": "typedoc",
-    "prepare": "husky install .github/husky"
+    "prepare": "husky install .github/husky",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
@@ -38,7 +39,8 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@aero/centra": "^1.0.6"
+    "@aero/centra": "^1.0.6",
+    "cz-conventional-changelog": "^3.3.0"
   },
   "engines": {
     "node": ">=15",
@@ -65,6 +67,11 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "husky": {
     "hooks": {

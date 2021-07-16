@@ -110,3 +110,25 @@ export async function hug (): Promise<string> {
 		.json()
 	return link
 }
+
+/**
+ * @returns {object} Returns object
+ * @async
+ */
+// eslint-disable-next-line @typescript-eslint/ban-types
+export async function meme (): Promise<object> {
+	const data: Meme = await c(constants.URLS.baseURL)
+		.path('meme')
+		.json()
+	return data
+}
+
+/**
+ * @internal
+ */
+interface Meme {
+	id: number
+	image: string
+	caption: string
+	category: string
+}
