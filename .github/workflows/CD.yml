@@ -55,7 +55,7 @@ jobs:
         run: yarn build
       - name: "Push to NPM Registry"
         run: |
-          npx standard-version --skip.commit
+          yarn standard-version --skip.commit
           npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
