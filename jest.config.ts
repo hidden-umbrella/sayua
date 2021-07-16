@@ -5,6 +5,7 @@ export default async (): Promise<Config.InitialOptions> => {
 		displayName: 'Unit Tests',
 		preset: 'ts-jest',
 		testEnvironment: 'node',
+		testTimeout: 15000,
 		testMatch: ['<rootDir>/tests/**/*.test.ts'],
 		globals: {
 			'ts-jest': {
