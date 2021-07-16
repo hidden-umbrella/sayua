@@ -4,7 +4,7 @@
 
 [![CD](https://github.com/hidden-umbrella/sayua/actions/workflows/CD.yml/badge.svg)](https://github.com/hidden-umbrella/sayua/actions/workflows/CD.yml)
 
-![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/hidden-umbrella/sayua)
+![Depfu](https://img.shields.io/depfu/hidden-umbrella/sayua)
 ![GitHub issues](https://img.shields.io/github/issues-raw/hidden-umbrella/sayua)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/hidden-umbrella/sayua)
 
