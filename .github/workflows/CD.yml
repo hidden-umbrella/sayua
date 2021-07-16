@@ -58,7 +58,7 @@ jobs:
           git config --global user.name "${GIT_USER}"
           git config --global user.email "${GIT_EMAIL}"
 
-          yarn standard-version --skip.commit --skip.changelog
+          yarn standard-version --skip.commit --skip.changelog --skip.tag
           npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
