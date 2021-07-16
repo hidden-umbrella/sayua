@@ -1,10 +1,11 @@
 {
   "name": "sayua",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "main": "dist/src/index",
   "author": "ArtieFuzzz#8298",
   "license": "MIT",
   "private": false,
+  "description": "A wrapper for some-random-api",
   "typings": "dist/src/index.d.ts",
   "scripts": {
     "lint": "eslint src --ext ts",
@@ -44,5 +45,5 @@
     "url": "https://github.com/hidden-umbrella/sayua.git"
   },
   "files": ["dist", "!dist/*.tsbuildinfo"],
-  "keywords": ["free", "api", "srd", "some-random-api"]
+  "keywords": ["free", "api", "sra", "some-random-api"]
 }
