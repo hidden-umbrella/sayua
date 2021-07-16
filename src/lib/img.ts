@@ -1,5 +1,5 @@
 import * as c from '@aero/centra'
-import constants from '../constants'
+import constants from './constants'
 
 /**
  * @returns Image link
@@ -74,6 +74,39 @@ export async function fox (): Promise<string> {
 export async function koala (): Promise<string> {
 	const { link }: { link: string } = await c(constants.URLS.baseURL)
 		.path('img/koala')
+		.json()
+	return link
+}
+
+/**
+ * @returns Image link
+ * @async
+ */
+export async function wink (): Promise<string> {
+	const { link }: { link: string } = await c(constants.URLS.baseURL)
+		.path('animu/wink')
+		.json()
+	return link
+}
+
+/**
+ * @returns Image link
+ * @async
+ */
+export async function pat (): Promise<string> {
+	const { link }: { link: string } = await c(constants.URLS.baseURL)
+		.path('animu/pat')
+		.json()
+	return link
+}
+
+/**
+ * @returns Image link
+ * @async
+ */
+export async function hug (): Promise<string> {
+	const { link }: { link: string } = await c(constants.URLS.baseURL)
+		.path('animu/hug')
 		.json()
 	return link
 }
