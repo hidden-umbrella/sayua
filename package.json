@@ -24,6 +24,7 @@
     "@types/node": "^16.3.2",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
     "@typescript-eslint/parser": "^4.28.3",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.30.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-config-standard-with-typescript": "^20.0.0",
@@ -39,8 +40,7 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@aero/centra": "^1.0.6",
-    "cz-conventional-changelog": "^3.3.0"
+    "@aero/centra": "^1.0.6"
   },
   "engines": {
     "node": ">=15",
