@@ -55,6 +55,9 @@ jobs:
         run: yarn build
       - name: "Push to NPM Registry"
         run: |
+          git config --global user.name "${GIT_USER}"
+          git config --global user.email "${GIT_EMAIL}"
+          
           yarn standard-version --skip.commit --skip.changelog
           npm publish --access public
         env:
