@@ -1,7 +1,7 @@
-import { img } from '../../src/index'
+import sayua from '../../src/index'
 
 describe('Images - Koala', () => {
 	test('Should return a string / url', async () => {
-		expect(typeof await img.koala()).toBe('string')
+		expect(typeof await sayua.img.animals.koala()).toBe('string')
 	})
 })

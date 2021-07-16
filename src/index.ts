@@ -1,5 +1,5 @@
 import img from './lib/img'
 
-export {
+export default {
 	img
 }
