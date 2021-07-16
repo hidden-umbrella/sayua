@@ -1,7 +1,7 @@
-import sayua from '../../src/index'
+import * as sayua from '../../src/index'
 
 describe('Images - Cat', () => {
 	test('Should return a string / url', async () => {
-		expect(typeof await sayua.img.animals.cat()).toBe('string')
+		expect(typeof await sayua.img.cat()).toBe('string')
 	})
 })
