@@ -13,6 +13,7 @@
 ## Current Features
 
 - Images - Animals
+- Canvas - Overlays
 
 ## Docs
 
