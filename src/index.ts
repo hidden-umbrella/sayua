@@ -1,5 +1,5 @@
-import img from './lib/img'
+import * as img from './lib/img'
 
-export default {
+export {
 	img
 }
