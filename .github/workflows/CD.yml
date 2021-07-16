@@ -55,15 +55,9 @@ jobs:
         run: yarn build
       - name: "Push to NPM Registry"
         run: |
-          git config --global user.name "${GIT_USER}"
-          git config --global user.email "${GIT_EMAIL}"
-
-          yarn standard-version --skip.commit --skip.changelog --skip.tag
           npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GIT_USER: ${{ secrets.GIT_USER }}
-          GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
       
   docs:
     runs-on: ubuntu-latest
