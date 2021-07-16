@@ -1,7 +1,7 @@
-import { images } from '../../src/index'
+import { img } from '../../src/index'
 
 describe('Images - Cat', () => {
 	test('Should return a string / url', async () => {
-		expect(typeof await images.cat()).toBe('string')
+		expect(typeof await img.cat()).toBe('string')
 	})
 })

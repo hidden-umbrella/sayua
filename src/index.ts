@@ -1,5 +1,5 @@
-import images from './lib/image'
+import img from './lib/img'
 
 export {
-	images
+	img
 }
