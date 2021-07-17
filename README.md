@@ -14,6 +14,7 @@
 
 - Images - Animals
 - Canvas - Overlays
+- Base64 Endpoint
 
 ## Docs
 
