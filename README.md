@@ -7,6 +7,7 @@
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/hidden-umbrella/sayua)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/hidden-umbrella/sayua)
+![npm](https://img.shields.io/npm/v/sayua?color=cornflowerblue&label=sayua&logo=npm&style=for-the-badge)
 
 </div>
 
